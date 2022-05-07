@@ -20,7 +20,7 @@ bool isPossible(int arr[], int n, int m, int mid) {
     return true;
 }
 int allocateBooks(int arr[], int n, int m) {
-    int s = 0;
+    int s = arr[0];
     int sum = 0;
     for (int i = 0;i < n;i++) {
         sum += arr[i];

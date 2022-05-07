@@ -14,6 +14,7 @@ int peakIndex(int arr[], int n) {
 
     }
     return e;
+    // return s;
 }
 int main() {
     int arr[6] = { 0, 1, 2, 3 , 4, 0 };
